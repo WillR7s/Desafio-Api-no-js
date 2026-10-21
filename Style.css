@@ -71,12 +71,19 @@ font-weight: bold;
     
 }
  .filme img{
-    margin-top:40px;
+    width: 140px;
+    height: 140px;
+    min-width: 140px; /* Garante que o flexbox não esmague a imagem */
+    min-height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 0; /* Remove margens que empurravam a imagem para fora */
  }
 
 .conteudo1{
     display:flex;
     flex-direction: column;
+    width: 260px;
    
 }
 #star{
