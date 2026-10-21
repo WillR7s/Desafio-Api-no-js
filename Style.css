@@ -1,0 +1,118 @@
+body{
+    background-color: #17162e;
+}
+
+.inicio{
+color:white;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+font-size: 36px;
+font-weight: bold;
+}
+#busca{
+    border:none;
+    background-color: transparent;
+      outline: none;
+      width:600px;
+       color:white;
+    font-size: 20px;
+    padding:0 30px;
+}
+
+#busca::placeholder{
+    color:white;
+    font-size: 20px;
+}
+
+.buscar{
+    background-color:#454558;
+    Width:634px;
+    height:74px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius:20px;
+}
+
+.buscar i{
+    margin-right: 30px;
+}
+
+.checkbox{
+    display:flex;
+    align-items: center;
+    font-size:18px;
+    font-weight: lighter;
+    padding: 30px 0;
+    gap:10px;
+}
+.Filmes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.filme{
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-around;
+    width:1224px;
+    height:201px;
+    border:1px solid black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.5, 0.8);
+    margin-top:30px;
+    
+}
+.filme:hover{
+    transform:scale(1.2);
+    
+}
+ .filme img{
+    margin-top:40px;
+ }
+
+.conteudo1{
+    display:flex;
+    flex-direction: column;
+   
+}
+#star{
+    color:yellow;
+    
+}
+
+#heart{
+    color:red;
+    padding:20px;
+}
+
+.fav{
+    display:flex;
+    align-items: center;
+}
+
+.subcont{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.descricao{
+    text-align: justify;
+    width: 592px;
+    height:128px;
+    margin-top:40px;
+    font-size:18px;
+}
+
+.titulomaior{
+    max-width:250px;
+   
+}
+#img-Btm{
+    border-radius:100px;
+    margin-top:-10px;
+}
